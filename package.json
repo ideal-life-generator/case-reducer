@@ -1,0 +1,26 @@
+{
+  "author": {
+    "email": "ideal.life.generator@gmail.com",
+    "name": "Ideal Life"
+  },
+  "bugs": {
+    "email": "wssession.sup@gmail.com",
+    "url": "https://github.com/ideal-life/case-reducer/issues"
+  },
+  "description": "Light reducers architecture",
+  "homepage": "https://github.com/ideal-life/case-reducer/#readme",
+  "keywords": [
+    "react",
+    "redux",
+    "reducer",
+    "reducers",
+    "case-reducer"
+  ],
+  "license": "MIT",
+  "name": "case-reducer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideal-life/case-reducer.git"
+  },
+  "version": "0.0.3"
+}
