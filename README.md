@@ -29,8 +29,9 @@ const cases = {
     }
   },
 
+  [ USER_PROFILE_RESPONSE ] (state, data) {
+    const { user } = data
 
-  [ USER_PROFILE_RESPONSE ] (state, user) {
     return {
       ...state,
       isFetching: false,
