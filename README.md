@@ -11,8 +11,8 @@ $ npm install case-reducer --save
 ```js
 import caseReducer from "case-reducer"
 import {
-  REQUEST_USER_PROFILE,
-  USER_PROFILE_RESPONSE
+  REQUEST_USER,
+  USER_RESPONSE
 } from "actions/user"
 
 const initialState = {
@@ -22,14 +22,14 @@ const initialState = {
 }
 
 const cases = {
-  [ REQUEST_USER_PROFILE ] (state) {
+  [ REQUEST_USER ] (state) {
     return {
       ...state,
       isFetching: true
     }
   },
 
-  [ USER_PROFILE_RESPONSE ] (state, data) {
+  [ USER_RESPONSE ] (state, data) {
     const { user } = data
 
     return {
